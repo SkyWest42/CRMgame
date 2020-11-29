@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+.page-container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.shooting-platform {
+    background-color: black;
+    width: 900px;
+    height: 350px;
+    border-radius: 50% / 100%;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    align-self: flex-end;
+    /* display: flex;
+    justify-content: center; */
+    /* overflow: hidden; */
+}
+
+.to-shoot {
+    background-color: greenyellow;
+    width: 450px;
+    height: 210px;
+    position: absolute;
+    align-self: flex-end;
+    margin-bottom: 50px
+}
+
+.to-shoot:hover {
+    cursor: pointer;
+    transition: 1s ease-out;
+    /* transform: scale(0.5); */
+    /* display: inline;
+    position: absolute;*/
+}
+
+.destroyer {
+    position: absolute;
+    height: 400px;
+}
+
+.trash {
+    left: 10px;
+}
+
+.phone {
+    right: 10px;
+}
